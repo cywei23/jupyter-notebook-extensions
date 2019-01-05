@@ -21,9 +21,9 @@ of the existing documentation.
 
 The point of this repository is to develop new Jupyter Notebook extensions. Any of the extensions here
 should be added to the `nbextensions` subdirectory of the  `jupyter_contrib_nbextensions` library installed
-with pip. Youd can find the location of the library using `pip show jupyter_contrib_nbextensions`. 
+with pip. You can find the location of the library using `pip show jupyter_contrib_nbextensions`. 
 
-For example, I place the new extensions at `/usr/local/lib/python3.6/site-packages/jupyter_contrib_nbextensions/nbextensions`
+For example, I place the new extensions at `C:\Users\XX\Anaconda3\lib\site-packages\jupyter_contrib_nbextensions\nbextensions\`
 
 Each extension has three parts: `name.yaml` file with configuration, `README.md` with documentation,
 and `main.js` with the Javascript code. 
