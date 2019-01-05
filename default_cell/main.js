@@ -20,7 +20,7 @@ import seaborn as sns
 plt.style.use('bmh')
 
 # Options for pandas
-pd.options.display.max_columns = 20
+pd.options.display.max_columns = 100
 
 # Display all cell outputs
 from IPython.core.interactiveshell import InteractiveShell
